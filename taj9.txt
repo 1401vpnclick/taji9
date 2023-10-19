@@ -1,11 +1,25 @@
 <?php
 
-$json["title"] = "کاربرگرامی";
+$pkgName = "off"
+
+if ($pkgName == "off") {
+
+ $json["status"] = "nok";
+   
+} else {
+
+
+
+$json["title"] = "کاربرگرامی ";
 $json["message"] = "برای ویرایش این برنامه زحمت زیادی کشیده شده است، لطفا در چنل ما عضو شوید.";
 $json["dismissable"] = false;
 $json["dismissTxt"] = "رد";
 $json["okTxt"] = "عضویت";
 $json["okUrl"] = "tg://resolve?domain=Vpn_Click";
 $json["status"] = "ok";
+
+
+
+}
 die(json_encode($json));
 ?>
