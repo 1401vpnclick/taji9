@@ -1,29 +1,11 @@
 <?php
-$pkgName = $_SERVER['HTTP_PKGNAME'];
 
-
-if ($pkgName == "com.fast.free.folowvpn")
-{
-    $json["title"] = "";
-    $json["message"] = "برای ویرایش این برنامه زحمت زیادی کشیده شده است، لطفا در چنل ما عضو شوید.";
-    $json["dismissable"] = false;
-    $json["dismissTxt"] = "رد";
-    $json["okTxt"] = "عضویت";
-    $json["okUrl"] = "tg://resolve?domain=Vpn_Click";
-    $json["status"] = "ok";
-}else if ($pkgName == "com.example.newapp")
-{
-    $json["title"] = "";
-    $json["message"] = "برای ویرایش این برنامه زحمت زیادی کشیده شده است، لطفا در چنل ما عضو شوید.";
-    $json["dismissable"] = false;
-    $json["dismissTxt"] = "رد";
-    $json["okTxt"] = "عضویت";
-    $json["okUrl"] = "https://google.com";
-    $json["status"] = "ok";
-}else
-{
-    $json["status"] = "nok";
-}
-
+$json["title"] = "";
+$json["message"] = "برای ویرایش این برنامه زحمت زیادی کشیده شده است، لطفا در چنل ما عضو شوید.";
+$json["dismissable"] = false;
+$json["dismissTxt"] = "رد";
+$json["okTxt"] = "عضویت";
+$json["okUrl"] = "https://t.me/test2423884";
+$json["status"] = "ok";
 die(json_encode($json));
 ?>
